@@ -321,12 +321,12 @@ zniekształcają wyniki. Badany model zawiera niewielką grupę obserwacji -
          col = "blue",
          pch = 19);abline(h=0, col="purple")
 
-![](RMarkDown_projekt_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![Image](https://github.com/mariamiecho/Analiza-wynagrodzen-w-Polsce-R/blob/main/Wykres_obserwacji_wplywowych.jpg)
 
 W badanym modelu obserwacjami wpływowymi są obserwacje 7 i 12 czyli
 wojewódstwo mazowieckie i śląskie.
 
-1.  Obserwacje odstające - są to nietypowe wartości zmiennej objaśnianej
+2.  Obserwacje odstające - są to nietypowe wartości zmiennej objaśnianej
     (Y). Charakteryzują się dużymi wartościami reszt.
 
 <!-- -->
@@ -353,10 +353,11 @@ wojewódstwo mazowieckie i śląskie.
             main = "Wykres pudełkowy reszt")
 
 ![](RMarkDown_projekt_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+![Image](https://github.com/mariamiecho/Analiza-wynagrodzen-w-Polsce-R/blob/main/Wykres_obserwacji_odstajacych.jpg)
 
 W badanym modelu nie występują obserwacje odstające.
 
-1.  Obserwacje dźwigniowe - są to nietypowe wartości zmiennej
+3.  Obserwacje dźwigniowe - są to nietypowe wartości zmiennej
     objaśniającej (X).
 
 <!-- -->
@@ -371,7 +372,7 @@ W badanym modelu nie występują obserwacje odstające.
     );abline(h = 0.5, col="purple")
 
 ![](RMarkDown_projekt_files/figure-markdown_strict/unnamed-chunk-13-1.png)
-
+![Image](https://github.com/mariamiecho/Analiza-wynagrodzen-w-Polsce-R/blob/main/Wykres_obserwacji_dzwigniowych.jpg)
 W badanym modelu obserwacjami dźwigniowymi są obserwacje 7 i 12 czyli
 wojewódstwo mazowieckie i śląskie.
 
@@ -442,6 +443,7 @@ Badany model ma rozkład normalny.
            pch = 19);qqline(reszty)
 
 ![](RMarkDown_projekt_files/figure-markdown_strict/unnamed-chunk-17-1.png)
+![Image](https://github.com/mariamiecho/Analiza-wynagrodzen-w-Polsce-R/blob/main/Wykres_rozkl_normalnego.jpg)
 
 ## Badanie autokorelacji - test Durbina-Watsona
 
